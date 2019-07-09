@@ -1,3 +1,7 @@
+"""
+绘制柱状图
+"""
+
 import numpy as np
 import matplotlib.pyplot as mp
 
