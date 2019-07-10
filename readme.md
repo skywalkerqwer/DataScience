@@ -4,239 +4,211 @@
 
 ## day01 -- Numpy
 
-- numpy概述
-
-- 多维数组的创建
-
-  - np.array()
-  - np.arange()
-  - np.zeros()
-  - np.ones
-
-- ndarry对象的属性操作
-
-  - 数组的维度：np.ndarray.shape
-  - 元素的类型：np.ndarray.dtype
-  - 数组元素的个数：np.ndarray.size 
-  - 数组元素索引
-
-- 自定义Numpy的内部基本数据类型
-
-- ndarray数组对象的维度操作
-
-- ndarray数组的掩码操作
-
-- 多维数组的组合与拆分
-
-  - 垂直 np.vstack((a, b))  np.vsplit(c, 2)
-  - 水平 np.hstack((a, b))  np.hsplit(c, 2)
-  - 深度 np.dstack((a, b))  np.dsplit(i, 2)
-
-- 通过axis作为关键字参数指定方向
-
-  0: 垂直方向组合
-
-  1: 水平方向组合
-
-  2: 深度方向组合
-
-- 简单的一维数组组合方案
-
-  - 把两个数组摞在一起成两行 c = np.row_stack((a, b))
-  - #把两个数组组合在一起成两列 d = np.column_stack((a, b))
-
-- #### ndarray类的其他属性
-
-  - shape - 维度
-  - dtype - 元素类型
-  - size - 元素数量
-  - ndim - 维数，len(shape)
-  - itemsize - 元素字节数
-  - nbytes - 总字节数 = size x itemsize
-  - real - 复数数组的实部数组
-  - imag - 复数数组的虚部数组
-  - T - 数组对象的转置视图
-  - flat - 扁平迭代器
+- 03_attr.py
+  - 修改数据类型
+  - 数组维度
+  - 数组索引
+- 04_obj.py
+  - 自定义复合数据类型
+  - 设置dtype 自定义别名
+  - 多种设置dtype的方法
+  - 时间类型
+- 05_shape.py
+  - 复制变维
+  - 就地变维
+- 06_slice.py
+  - 数组切片
+- 07_mask.py
+  - 掩码操作
+  - 得到数组中所有偶数
+  - 用掩码进行排序
+- 08_stack.py
+  - 多维数组的拆分与组合
+  - 垂直、水平、深度操作
+- 09_constant.py
+  - 填充数组
+- 10_axis.py
+  - axis作为关键字指定方向
 
 ## day02 -- matplotlib
 
-- matplotlib基本功能
+- 01_plot.py
+- 垂直水平线
+- 02_plot_sin.py
+  - 在制定区间拆分点
+  - 绘制三角函数
+  - mp.plot()关键字参数：线形、线宽、颜色、透明度、标签
+  - 修改可视区域
+  - 修改坐标刻度
+  - latex语法
+  - 设置坐标轴
+  - 绘制两个特殊点
+  - 绘制两个点的备注
+  - 显示图例
+- 03_figure.py
+  - 绘制多个窗口
+  - 窗口各个参数设定
+- 04_subplot.py
+  - 矩阵式子图
+- 05_gridsubplot.py
+  - 网格式子图布局
+  - matplotlib.gridspec
+- 06_free_layout.py
+  - 自由式子图布局
+  - mp.axes()
+- 07_locators.py
+  - 刻度定位器
+  - 获取当前坐标轴
+  - 隐藏除底轴以外的所有坐标轴
+  - 将底坐标轴调整到子图中心位置
+  - 设置主刻度定位器 与 次刻度定位器
+  - 多点定位器
+- 08_grid.py
+  - 绘制刻度网格线
+  - ax.grid()
+- 09_semilogy.py
+  - 绘制半对数坐标轴
+  - mp.semilogy()
+- 10_scatter.py
+  - 生成呈正态分布的两组数据
+  - np.random.normal(期望,标准差,容量)
+  - 绘制散点图mp.scatter()
 
-- 绘图核心API
+## day03 -- matplotlib
 
-  - ```python
-    mp.plot(xarray, yarray, linestyle='', linewidth=‘’, color='', alpha=‘’，label='')
+- 01_fill.py
+
+  - 填充
+  - mp.fill_between()
+
+- 02_bar.py
+
+  - 绘制柱状图
+  - mp.bar()
+
+- 03_pie.py
+
+  - 绘制饼状图
+  - mp.pie()
+
+- 04_contour.py
+
+  - 绘制等高线图
+  - cntr = mp.contour()  等高线返回对象
+  - mp.clabel( cntr,...)
+
+- 05_imshow.py
+
+  - 绘制热成像图
+  - mp.imshow()
+
+- 06_3d_scatter.py
+
+  - 三维点阵图
+  - ax3d = mp.gca(projection='3d')
+  - ax3d.scatter()
+
+- 07_3d_surface.py
+
+  - 3d曲面图
+  - ax3d = mp.gca(projection='3d')
+  - ax3d.plot_surface()
+
+- 08_3d_wirefarme.py
+
+  - 3d曲面图
+  - ax3d = mp.gca(projection='3d')
+  - ax3d.plot_wireframe()
+
+- 09_polar.py
+
+  - 极坐标系
+  - mp.gca(projection='polar')
+
+- 10_bubble.py
+
+  - 气泡动画
+  - matplotlib.animation
+  - anim = ma.FuncAnimation()
+
+- 11_loadtxt.py
+
+  - 加载文件
+
+  - np.loadtxt()
+
+## day04 -- matplotlib
+
+- 01_k.py
+
+  - 绘制K线图
+  - 绘制实体  mp.bar()
+  - 绘制影线  mp.vlines()
+
+- 02_mean.py
+
+  - 算术平均值  mean = np.mean()
+  - 加权平均数  wap = np.average(..., weight=)
+  - 中位数  median = np.median()
+
+- 03_max.py
+
+  - 最大值  np.max()
+  - 最小值  np.min()
+  - 最大最小值元素下标
+    - maxi = np.argmax
+    - mini = np.argmin
+    - dates[maxi]
+    - dates[mini]
+  - 两个数组中每个对应元素的最大最小值
+    - np.maximum(a,b)
+    - np.minimum(a,b)
+
+- 04_std.py
+
+  - 中体标准差  np.std()
+  - 平均值  m = np.mean(closing_prices)
+  - 离差  d = closing_prices - m
+  - 离差方  q = d**2
+  - 方差  s = np.mean(q)
+  - 标准差  v = np.sqrt(s)
+
+- 05_wd.py
+
+  - 时间处理
+
+  - matplotlib.dates
+
+  - ```
+    d = dt.datetime.strptime(dmy, '%d-%m-%Y').date()
+    wday = d.weekday()
+    ave_price = np.zeros(5)
+    for wday in range(ave_price.size):
+        ave_price[wday] = np.mean(closing_prices[wdays==wday])
     ```
 
-    - linestyle: '-' 实线  '--' 虚线  ':' 点线
-    - linewidth: 线宽
-    - color: 英文颜色单词 或 常见颜色英文单词首字母 或 #495434 或 (1,1,1) 或 (1,1,1,1)
-    - alpha:透明度
+- 06_aaa.py
+  - 轴向汇总
+  - re = np.apply_along_axis()
 
-  - 绘制垂直线 mp.vlines(vval, ymin, ymax, ...)
-
-  - 绘制水平线 mp.hlines(xval, xmin, xmax, ...)
-
-- 设置坐标轴范围 
-
-  - mp.xlim(x_limt_min, x_limit_max)
-  - mp.ylim(y_limt_min, y_limit_max)
-
-- 设置坐标刻度
-
-  - mp.xticks(x_val_list , x_text_list )
-  - mp.yticks(y_val_list , y_text_list )
-
-- 刻度文本的特殊语法 LaTex排版语法字符串
-
-- 设置坐标轴  
-
-  - 获取当前坐标轴字典 ax = mp.gca()
-  - 获取其中某个坐标轴 axis = ax.spines['坐标轴名']
-  - 设置坐标轴的位置 axis.set_position((type, val))
-    - type: <str> 移动坐标轴的参照类型  一般为'data' (以数据的值作为移动参照值)
-    - val:  参照值
-  - 设置坐标轴的颜色 axis.set_color(color)
-
-- 图例
-
-  - mp.plot(... label='', ...)
-  - label: <关键字参数 str> 支持LaTex排版语法字符串
-  - mp.legend(loc='')
-
-- 特殊点
-
-  ```python
-    mp.scatter(xarray, yarray, 
-               marker='', 		#点型 ~ matplotlib.markers
-               s=60, 			#大小
-               edgecolor='', 	#边缘色
-               facecolor='',	#填充色
-               zorder=3			#绘制图层编号 （编号越大，图层越靠上）
-    )
-  ```
-
-- 备注
-
-  ```python
-    # 在图表中为某个点添加备注。包含备注文本，备注箭头等图像的设置。
-    mp.annotate(
-        r'$\frac{\pi}{2}$',			#备注中显示的文本内容
-        xycoords='data',			#备注目标点所使用的坐标系（data表示数据坐标系）
-        xy=(x, y),	 				#备注目标点的坐标
-        textcoords='offset points',	#备注文本所使用的坐标系（offset points表示参照点的偏移坐标系）
-        xytext=(x, y),				#备注文本的坐标
-        fontsize=14,				#备注文本的字体大小
-        arrowprops=dict()			#使用字典定义文本指向目标点的箭头样式
-    )
-  ```
-
-  
-
-- 图形对象（图形窗口）
-
-  - 手动构建 matplotlib 窗口
-
-    ```python
-    # 手动构建 matplotlib 窗口
-    mp.figure(
-        '',					#窗口标题栏文本 
-        figsize=(4, 3),		#窗口大小 <元组>
-        dpi=120,			#像素密度
-    	facecolor=''		#图表背景色
-    )
-    mp.show()
-    ```
-
-  - 设置当前窗口的参数
-
-    ```python
-    # 设置图表标题 显示在图表上方
-    mp.title(title, fontsize=12)
-    # 设置水平轴的文本
-    mp.xlabel(x_label_str, fontsize=12)
-    # 设置垂直轴的文本
-    mp.ylabel(y_label_str, fontsize=12)
-    # 设置刻度参数   labelsize设置刻度字体大小
-    mp.tick_params(..., labelsize=8, ...)
-    # 设置图表网格线  linestyle设置网格线的样式
-    	#	-  or solid 粗线
-    	#   -- or dashed 虚线
-    	#   -. or dashdot 点虚线
-    	#   :  or dotted 点线
-    mp.grid(linestyle='')
-    # 设置紧凑布局
-    mp.tight_layout() 
-    ```
-
-- 子图
-
-  - 矩阵式布局
-  - 网格式布局
-  - 自由式布局
-
-- 刻度定位器
-
-  ```python
-  # 获取当前坐标轴
-  ax = mp.gca()
-  # 设置水平坐标轴的主刻度定位器
-  ax.xaxis.set_major_locator(mp.NullLocator())
-  # 设置水平坐标轴的次刻度定位器为多点定位器，间隔0.1
-  ax.xaxis.set_minor_locator(mp.MultipleLocator(0.1))
-  ```
-
-- 刻度网格线
-
-  ```python
-  ax = mp.gca()
-  #绘制刻度网格线
-  ax.grid(
-      which='',		# 'major'/'minor' <-> '主刻度'/'次刻度' 
-      axis='',		# 'x'/'y'/'both' <-> 绘制x或y轴
-      linewidth=1, 	# 线宽
-      linestyle='', 	# 线型
-      color='',		# 颜色
-  	alpha=0.5		# 透明度
-  )
-  ```
-
-- 半对数坐标 
-
-  ```python
-  mp.semilogy(y)
-  ```
-
-- 散点图
-
-  ```python
-  mp.scatter(
-      x, 					# x轴坐标数组
-      y,					# y轴坐标数组
-      marker='', 			# 点型
-      s=10,				# 大小
-      color='',			# 颜色
-      edgecolor='', 		# 边缘颜色
-      facecolor='',		# 填充色
-      zorder=''			# 图层序号
-  )
-  
-  ```
-
-- 正态分布随机数 
-
-  ```python
-  np.random.normal(期望, 标准差, 容量)
-  
-  ```
-
-- 设置点的颜色
-
-  ```python
-  mp.scatter(x, y, c='red')			#直接设置颜色
-  d = (x-172)**2 + (y-60)**2
-  mp.scatter(x, y, c=d, cmap='jet')	#以c作为参数，取cmap颜色映射表中的颜色值
-  
-  ```
-
+- 07_sma.py
+  - 移动平均线
+  - 卷积  np.convolve(原数组,卷积核,'卷积类型')
+  - 卷积实现移动平均线
+  - 加权卷积
+    - 通过指数函数寻求一组卷积核
+    
+    - kernel_e = np.exp(np.linspace(-1, 0, 5)
+    
+    - 翻转卷积核
+    
+    - kernel_e = kernel_e[::-1]
+    
+    - 让卷积核之和为1 保证卷积结果与源数据匹配
+    
+    - kernel_e /= kernel_e.sum()
+    
+    - sma_e = np.convolve()
+    
+## day05 --
 
