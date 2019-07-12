@@ -227,10 +227,22 @@
   - 05_poly.py
     - 多项式基本操作
     - 一组系数组成的数组可以代表一个多项式
+    - 根据x求y值  np.polyval(P,X)  P--> 多项式系数
+    - 多项式求导  np.polyder(P)
+    - 求两个多项式差函数  Q = np.polysub(P1, P2)
+    - 求根  xs = np.roots(P)  可带入差函数求两函数交点
   - 06_poly.py
     - 多项式拟合
-    - np.polyfit()
+    - 根据一组样本，并给出最高次幂，求出拟合多项式函数
+    - P = np.polyfit(X, Y, 最高次幂)
   - 07_ph.py
     - 数据平滑
-    
+    - 卷积降噪
+      - 利用convolve_core = hanning(n)产生一组卷积核
+      - 卷积核归一
+      - 曲线进行卷积运算  np.convolve(曲线,convole_core)
+    - 拟合经过卷积降噪的曲线
+      - P = np.polyfit(dates, 降噪曲线, 次幂)
+      - 求出P函数每一点的y坐标
+      - y = np.polyval(P, dates)
     
