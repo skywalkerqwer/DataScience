@@ -9,7 +9,7 @@ y1 = 4 * np.pi * np.sin(x)
 y2 = 4 / 3 * np.pi * np.sin(3 * x)
 y3 = y1 + y2
 
-n = 50000
+n = 5000
 y = np.zeros(x.size)
 for i in range(1, n + 1):
     y += 4 * np.pi / (2 * i - 1) * np.sin((2 * i - 1) * x)

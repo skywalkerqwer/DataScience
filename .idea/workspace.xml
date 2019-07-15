@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fe39d86-8703-4c35-9304-640ae43b0f2b" name="Default Changelist" comment="" />
+    <list default="true" id="6fe39d86-8703-4c35-9304-640ae43b0f2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day07/01_eig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/02_eig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/03_svd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/04_svd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/05_fft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/06_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/07_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/08_search_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/09_interp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/10_int.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/08_fly.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/08_fly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +46,22 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="586">
-                <caret line="273" column="17" lean-forward="true" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
+              <first_editor relative-caret-position="498">
+                <caret line="300" column="31" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07/10_int.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="e#13#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,28 +75,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>read</find>
+      <find>cpu</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day03/01_fill.py" />
-        <option value="$PROJECT_DIR$/day03/02_bar.py" />
-        <option value="$PROJECT_DIR$/day03/03_pie.py" />
-        <option value="$PROJECT_DIR$/day03/04_contour.py" />
-        <option value="$PROJECT_DIR$/day03/05_imshow.py" />
-        <option value="$PROJECT_DIR$/day03/06_3d.py" />
-        <option value="$PROJECT_DIR$/day03/06_3d_scatter.py" />
-        <option value="$PROJECT_DIR$/day03/07_3d_surface.py" />
-        <option value="$PROJECT_DIR$/day03/08_3d_wirefarme.py" />
-        <option value="$PROJECT_DIR$/day03/09_polor.py" />
-        <option value="$PROJECT_DIR$/day03/09_polar.py" />
-        <option value="$PROJECT_DIR$/day03/10_animation.py" />
-        <option value="$PROJECT_DIR$/day03/10_bubble.py" />
-        <option value="$PROJECT_DIR$/day03/12_loadtxt.py" />
-        <option value="$PROJECT_DIR$/day03/11_loadtxt.py" />
-        <option value="$PROJECT_DIR$/read.py" />
         <option value="$PROJECT_DIR$/day04/01_k.py" />
         <option value="$PROJECT_DIR$/day04/03_max.py" />
         <option value="$PROJECT_DIR$/day04/02_mean.py" />
@@ -103,14 +119,30 @@
         <option value="$PROJECT_DIR$/day06/06_divide.py" />
         <option value="$PROJECT_DIR$/day06/07_bitwise.py" />
         <option value="$PROJECT_DIR$/day06/08_sin.py" />
-        <option value="$PROJECT_DIR$/day06/08_fly.py" />
         <option value="$PROJECT_DIR$/t_re.py" />
+        <option value="$PROJECT_DIR$/day07/01_.py" />
+        <option value="$PROJECT_DIR$/day07/01_eig.py" />
+        <option value="$PROJECT_DIR$/day07/02_.py" />
+        <option value="$PROJECT_DIR$/day07/03_.py" />
+        <option value="$PROJECT_DIR$/day07/03_svd.py" />
+        <option value="$PROJECT_DIR$/day07/02_eig.py" />
+        <option value="$PROJECT_DIR$/day07/04_svd.py" />
+        <option value="$PROJECT_DIR$/day07/05_.py" />
+        <option value="$PROJECT_DIR$/day06/08_fly.py" />
+        <option value="$PROJECT_DIR$/day07/05_fft.py" />
+        <option value="$PROJECT_DIR$/day07/06_filter.py" />
+        <option value="$PROJECT_DIR$/day07/07_random.py" />
+        <option value="$PROJECT_DIR$/day07/08_search_sort.py" />
+        <option value="$PROJECT_DIR$/day07/09_interp1d.py" />
+        <option value="$PROJECT_DIR$/day07/09_interp.py" />
+        <option value="$PROJECT_DIR$/day07/10_.py" />
+        <option value="$PROJECT_DIR$/day07/10_int.py" />
         <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+    <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="928" />
     <option name="height" value="664" />
@@ -133,7 +165,7 @@
             <path>
               <item name="Section9DataScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section9DataScience" type="462c0819:PsiDirectoryNode" />
-              <item name="day06" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,8 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t_re">
-    <configuration name="08_fly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="10_int" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataScience" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,12 +223,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/08_fly.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07/10_int.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,32 +259,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t_re" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataScience" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t_re.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.t_re" />
-        <item itemvalue="Python.08_fly" />
+        <item itemvalue="Python.10_int" />
       </list>
     </recent_temporary>
   </component>
@@ -277,12 +286,14 @@
       <workItem from="1562836135215" duration="2440000" />
       <workItem from="1562891632939" duration="8229000" />
       <workItem from="1562902398450" duration="11603000" />
-      <workItem from="1563150699206" duration="2804000" />
+      <workItem from="1563150699206" duration="9165000" />
+      <workItem from="1563162473318" duration="6023000" />
+      <workItem from="1563178763690" duration="3706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106659000" />
+    <option name="totallyTimeSpent" value="122749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,12 +308,12 @@
     <frame x="67" y="25" width="1849" height="914" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17706013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18151447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988864" weight="0.43116882" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988864" weight="0.35194805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,167 +379,29 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataScience$01_ndarray.coverage" NAME="01_ndarray Coverage Results" MODIFIED="1562296221430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$02_.coverage" NAME="02_ Coverage Results" MODIFIED="1563156471696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$08_search_sort.coverage" NAME="08_search_sort Coverage Results" MODIFIED="1563178865805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$02_eig.coverage" NAME="02_eig Coverage Results" MODIFIED="1563158238598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Section9DataScience$07_bitwise.coverage" NAME="07_bitwise Coverage Results" MODIFIED="1562920296618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$10_int.coverage" NAME="10_int Coverage Results" MODIFIED="1563183581113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Section9DataScience$05_add.coverage" NAME="05_add Coverage Results" MODIFIED="1562910439026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Section9DataScience$11_loadtxt.coverage" NAME="11_loadtxt Coverage Results" MODIFIED="1562665407424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$01_eig.coverage" NAME="01_eig Coverage Results" MODIFIED="1563155249894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/DataScience$03_attr.coverage" NAME="03_attr Coverage Results" MODIFIED="1562301018615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Section9DataScience$02_vec.coverage" NAME="02_vec Coverage Results" MODIFIED="1562900107624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/DataScience$07_mask.coverage" NAME="07_mask Coverage Results" MODIFIED="1562317215584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Section9DataScience$04_matrix.coverage" NAME="04_matrix Coverage Results" MODIFIED="1562907391167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Section9DataScience$08_fly.coverage" NAME="08_fly Coverage Results" MODIFIED="1562923121504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$05_fft.coverage" NAME="05_fft Coverage Results" MODIFIED="1563174829467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$03_svd.coverage" NAME="03_svd Coverage Results" MODIFIED="1563159409891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$06_filter.coverage" NAME="06_filter Coverage Results" MODIFIED="1563174157763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Section9DataScience$06_divide.coverage" NAME="06_divide Coverage Results" MODIFIED="1562911369656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Section9DataScience$t_re.coverage" NAME="t_re Coverage Results" MODIFIED="1563152271315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Section9DataScience$09_interp.coverage" NAME="09_interp Coverage Results" MODIFIED="1563182137586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Section9DataScience$1_9add.coverage" NAME="1_9add Coverage Results" MODIFIED="1562837109311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Section9DataScience$05_.coverage" NAME="05_ Coverage Results" MODIFIED="1562910177369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day02/06_free_layout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/07_locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/08_grid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/10_scatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/09_semilogy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="41" column="11" selection-start-line="41" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/02_bar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/03_pie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/04_contour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/05_imshow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/06_3d_scatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/07_3d_surface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="18" selection-start-line="17" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/08_3d_wirefarme.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="20" selection-start-line="17" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/09_polar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#13#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/10_bubble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/11_loadtxt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="81" />
-          <folding>
-            <element signature="e#13#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/01_k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/02_mean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-end-line="86" selection-end-column="18" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/03_max.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day04/04_std.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -672,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3121">
-          <caret line="1878" column="14" selection-start-line="1878" selection-start-column="14" selection-end-line="1878" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day06/03_.py" />
     <entry file="file://$PROJECT_DIR$/day06/01_obv.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -721,23 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day06/08_fly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#20#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/t_re.py" />
     <entry file="file://$PROJECT_DIR$/day06/05_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -759,11 +609,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/da_data/head.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/da_data/lily.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/scipy/misc/pilutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/scipy/misc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/01_eig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/02_eig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/03_svd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/05_.py" />
+    <entry file="file://$PROJECT_DIR$/day06/08_fly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" selection-start-line="4" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/scipy/io/wavfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/04_svd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/05_fft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/06_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/07_random.py" />
+    <entry file="file://$PROJECT_DIR$/day07/07_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="3240" column="4" selection-start-line="3240" selection-start-column="4" selection-end-line="3240" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/09_interp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#13#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/08_search_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1600382484/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/10_int.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#13#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="586">
-            <caret line="273" column="17" lean-forward="true" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
+          <first_editor relative-caret-position="498">
+            <caret line="300" column="31" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
