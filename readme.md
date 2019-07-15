@@ -245,7 +245,7 @@
       - P = np.polyfit(dates, 降噪曲线, 次幂)
       - 求出P函数每一点的y坐标
       - y = np.polyval(P, dates)
-## day06
+## day06 -- 数学运算
   - 01_obv.py
     - np.sign() 返回数组的符号数组
     - np.piecewise(源数组, 条件序列, 取值序列)
@@ -268,5 +268,9 @@
     - 加法乘法通用函数
   - 06_divide.py
     - 除法通用函数
-  - 07_fly.py
+  - 07_bitwise.py
+    - 位运算
+  - 08_fly.py
     - 根据傅里叶变换合成方波
+## day07 -- 
+  - 
